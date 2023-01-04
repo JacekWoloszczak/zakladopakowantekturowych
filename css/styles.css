@@ -760,13 +760,20 @@ a:hover {
     justify-content: center;
   }
 }
-@media screen and (min-width: 1023px) {
+@media screen and (min-width: 1023px) and (max-width: 1279px) {
   .container-navi {
     display: flex;
+
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    overflow: hidden;
-    overflow-x: scroll;
+    /* overflow: hidden;
+    overflow-x: scroll; */
+  }
+
+  .menu-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20%;
   }
 }
