@@ -7,12 +7,12 @@
     <title>Zakład opakowań tekturowych Bogdan Kamiński</title>
     <meta
       name="description"
-      content="Zakład produkujacy opakowania w Łomiankach. Pudełka na każdy wymiar. Szybki czas realizacji zamówienia, najlepsze ceny!"
+      content="Zakład produkujacy opakowania w Łomiankach. Pudełka, kartony na każdy wymiar. Szybki czas realizacji zamówienia, najlepsze ceny!"
     />
-    <meta name="author" content="Jacek Wołoszczak" />
+    <meta name="author" content="Jacek" />
     <link rel="stylesheet" type="text/css" href="css/normalize.css" />
     <link rel="stylesheet" type="text/css" href="css/styles.css" />
-
+    <link rel="canonical" href="https://www.zakladopakowanlomianki.pl/" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -22,7 +22,6 @@
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
-    <link rel="manifest" href="/site.webmanifest" />
   </head>
   <body>
     <header class="top">
@@ -53,7 +52,45 @@
           </address>
         </div>
       </div>
+
       <nav class="menu-navi">
+        <div class="header_burger-menu">
+          <div class="header__navigation-hamburger">
+            <button type="button" class="header__mobile-btn">
+              <svg class="header__navigation-icon" width="40" height="40">
+                <use href="./images/icons.svg#icon-menu"></use>
+              </svg>
+            </button>
+
+            <div class="header__menu-mobile d-none">
+              <ul class="header__mobile-list">
+                <li class="header__list-item">
+                  <a class="header__link" href="index.html">O NAS</a>
+                </li>
+                <li class="header__list-item">
+                  <a class="header__link" href="oferta.html">OFERTA</a>
+                </li>
+                <li class="header__list-item">
+                  <a class="header__link" href="aktualnosci.html"
+                    >AKTUALNOŚCI</a
+                  >
+                </li>
+                <li class="header__list-item">
+                  <a class="header__link" href="kontakt.html">KONTAKT</a>
+                </li>
+              </ul>
+
+              <button type="button" class="header__exit-btn">
+                <svg width="20" height="20" class="header__exit">
+                  <use
+                    class="page-header__exit-icon"
+                    href="./images/icons.svg#icon-x-symbol-svgrepo-com"
+                  ></use>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
         <div class="container-navi">
           <ul class="menu-list">
             <li>
@@ -165,6 +202,13 @@
             z zamówieniem. Pomożemy dobrać odpowiednie materiały odpowiadające
             Państwa potrzebom.
           </p>
+
+          <p class="text-visit">
+            Odwiedź naszą wizytówkę w mapach Google!
+            <a href=" https://www.google.com/maps?cid=16397789907246259866"
+              >Zakład Opakowań Tekturowych Bogdan Kamiński</a
+            >
+          </p>
         </div>
       </article>
     </main>
@@ -214,5 +258,6 @@
         </div>
       </address>
     </footer>
+    <script src="./js/script.js"></script>
   </body>
 </html>
