@@ -545,6 +545,7 @@ a:hover {
   .header__link {
     text-decoration: none;
     color: black;
+    border-bottom: 1px solid black;
   }
 
   .header__mobile-btn {
