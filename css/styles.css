@@ -241,7 +241,58 @@ a:hover {
   margin-top: 6%;
   /* box-shadow: 1px 1px 1px 2px white; */
 }
+.commentary {
+  margin-top: 3%;
+}
 
+.commentary_clients-opinion {
+  color: white;
+
+  margin: 3%;
+  text-align: center;
+  font-size: 2em;
+}
+.comments-windows {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+.first-window {
+  width: 20%;
+  height: 9%;
+  padding: 2.75%;
+  margin-top: 5%;
+  background-color: white;
+  border-radius: 10%;
+  box-shadow: 2px 2px 2px 4px black;
+}
+.first-window_opinion {
+  font-size: 1.1em;
+}
+.second-window {
+  width: 20%;
+  height: 10%;
+  padding: 4%;
+  margin-top: 5%;
+  background-color: white;
+  border-radius: 10%;
+  box-shadow: 2px 2px 2px 4px black;
+}
+.second-window_opinion {
+  font-size: 1.1em;
+}
+.third-window {
+  width: 20%;
+  height: 10%;
+  padding: 6%;
+  margin-top: 5%;
+  background-color: white;
+  border-radius: 10%;
+  box-shadow: 2px 2px 2px 4px black;
+}
+.third-window_opinion {
+  font-size: 1.1em;
+}
 .text {
   font-size: 1.5em;
   line-height: 1.6;
@@ -647,7 +698,35 @@ a:hover {
     align-items: center;
     justify-content: center;
   }
+  .comments-windows {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 
+  .first-window {
+    width: 80%;
+    height: 20%;
+    padding: 2.75%;
+    margin-top: 5%;
+    background-color: white;
+    border-radius: 10%;
+    box-shadow: 2px 2px 2px 4px black;
+  }
+
+  .second-window {
+    width: 80%;
+    height: 20%;
+    padding: 2.75%;
+    margin-top: 5%;
+    background-color: white;
+    border-radius: 10%;
+    box-shadow: 2px 2px 2px 4px black;
+  }
+
+  .third-window {
+    display: none;
+  }
   .link {
     font-size: 2em;
     font-weight: bold;
@@ -754,14 +833,45 @@ a:hover {
     align-items: center;
     justify-content: center;
   }
+  .comments-windows {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .first-window {
+    width: 80%;
+    height: 20%;
+    padding: 2.75%;
+    margin-top: 5%;
+    background-color: white;
+    border-radius: 10%;
+    box-shadow: 2px 2px 2px 4px black;
+  }
+
+  .second-window {
+    width: 80%;
+    height: 20%;
+    padding: 2.75%;
+    margin-top: 5%;
+    background-color: white;
+    border-radius: 10%;
+    box-shadow: 2px 2px 2px 4px black;
+  }
+  .third-window {
+    display: none;
+  }
 
   .thumb {
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    align-items: flex-start;
     justify-content: center;
   }
-
+  .phone {
+    margin-top: 4%;
+  }
   .localization {
+    margin-top: 4%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -838,7 +948,8 @@ a:hover {
 
   .thumb {
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    align-items: flex-start;
     justify-content: space-between;
   }
 
