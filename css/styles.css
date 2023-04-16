@@ -609,13 +609,17 @@ a:hover {
     justify-content: center;
     align-items: center;
     background-color: #545454;
+    padding-top: 2%;
+    padding-bottom: 2%;
   }
   .header__menu-mobile {
     background-color: #dc7920;
     border: 2px solid black;
     width: 100vw;
     position: relative;
+    margin-top: 2%;
   }
+
   .header__mobile-list {
     display: flex;
     flex-direction: column;
@@ -637,9 +641,6 @@ a:hover {
     background-color: #545454;
     border: none;
     cursor: pointer;
-    display: flex;
-    justify-content: center;
-    align-items: center;
   }
 
   .d-none {
@@ -647,13 +648,15 @@ a:hover {
   }
 
   .header__exit-btn {
-    background-color: #dc7920;
+    background-color: #545454;
     border: none;
     cursor: pointer;
     position: absolute;
-    top: 2vw;
+    top: -15vw;
     right: 2vw;
+    display: flex;
   }
+
   .container-navi {
     display: none;
   }
