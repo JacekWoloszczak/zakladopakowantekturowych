@@ -770,15 +770,6 @@ a:hover {
     height: 100px;
     margin-top: -100px;
     position: relative;
-    animation-name: move;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-  }
-
-  @keyframes move {
-    to {
-      background-position: 100% 100%;
-    }
   }
 
   .show,
@@ -988,7 +979,114 @@ a:hover {
   .third-window {
     display: none;
   } */
+  .write_article {
+    position: relative;
+    padding-bottom: 13%;
+  }
 
+  .frame {
+    width: 50vw;
+    height: 8vw;
+    position: absolute;
+    bottom: 2em;
+    right: 25vw;
+    border: 2px solid black;
+    background-color: black;
+    color: white;
+    padding: 1em;
+  }
+  .show:target ~ .blur {
+    display: none;
+  }
+  .blur {
+    background: repeating-linear-gradient(
+      -45deg,
+      #757575 0,
+      #75757500 75%,
+      transparent 0,
+      transparent 25%
+    );
+    width: 100%;
+    height: 100px;
+    margin-top: -100px;
+    position: relative;
+  }
+
+  .show,
+  .hide {
+    z-index: 5;
+    text-align: center;
+  }
+
+  .show,
+  .hide {
+    visibility: visible;
+  }
+  .show:target {
+    display: none;
+  }
+  .hide {
+    display: none;
+  }
+
+  .show:target ~ .hide {
+    display: block;
+  }
+  .show:target ~ .article_container {
+    max-height: 100%;
+  }
+
+  .article_container {
+    max-height: 100px;
+    overflow: hidden;
+  }
+
+  .write_article-ecology {
+    position: relative;
+    padding-bottom: 13%;
+  }
+  .eco {
+    width: 50vw;
+    height: 8vw;
+    position: absolute;
+    bottom: 2em;
+    right: 25vw;
+    border: 2px solid black;
+    background-color: black;
+    color: white;
+    padding: 1em;
+  }
+  .seen:target ~ .blur {
+    display: none;
+  }
+  .seen,
+  .unseen {
+    z-index: 5;
+    text-align: center;
+  }
+
+  .seen,
+  .unseen {
+    visibility: visible;
+  }
+  .seen:target {
+    display: none;
+  }
+  .unseen {
+    display: none;
+  }
+
+  .seen:target ~ .unseen {
+    display: block;
+  }
+  .seen:target ~ .ecology_text {
+    max-height: 100%;
+  }
+
+  .ecology_text {
+    max-height: 100px;
+    overflow: hidden;
+  }
   .thumb {
     display: flex;
     flex-direction: column;
