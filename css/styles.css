@@ -1224,4 +1224,13 @@ a:hover {
   .d-none {
     display: none;
   }
+  .button {
+    width: 60px;
+    height: 40px;
+    border-radius: 5%;
+    text-align: center;
+    margin-right: -5%;
+    margin-left: 95%;
+    border: 1px solid black;
+  }
 }
