@@ -555,7 +555,15 @@ a:hover {
 .hide {
   visibility: hidden;
 }
-
+.copyright {
+  background-color: #757575;
+  height: 100%;
+  padding: 1%;
+}
+.paragraph-copy {
+  background-color: #757575;
+  color: black;
+}
 @media screen and (orientation: portrait) {
   .top {
     box-shadow: none;
