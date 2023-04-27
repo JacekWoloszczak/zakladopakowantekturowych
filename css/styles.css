@@ -560,6 +560,9 @@ a:hover {
   height: 100%;
   padding: 1%;
 }
+.copyright > p {
+  color: white;
+}
 .paragraph-copy {
   background-color: #757575;
   color: black;
