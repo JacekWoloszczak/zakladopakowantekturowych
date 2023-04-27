@@ -567,6 +567,9 @@ a:hover {
   background-color: #757575;
   color: black;
 }
+.ofert-link {
+  color: black;
+}
 @media screen and (orientation: portrait) {
   .top {
     box-shadow: none;
@@ -910,6 +913,9 @@ a:hover {
     text-align: center;
     padding: 3% 3%;
     margin: 0 auto;
+  }
+  .copyright {
+    background-color: #757575;
   }
 }
 
