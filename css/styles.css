@@ -557,7 +557,7 @@ a:hover {
 }
 .copyright {
   background-color: #757575;
-  height: 100%;
+  margin-top: -2%;
   padding: 1%;
 }
 .copyright > p {
