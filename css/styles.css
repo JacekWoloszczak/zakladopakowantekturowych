@@ -372,6 +372,8 @@ a:hover {
   text-shadow: 1px 1px black;
 }
 #cookie {
+  position: fixed;
+  z-index: 3;
   width: 100%;
   border: 10px solid grey;
   background-color: #ebebeb;
@@ -386,9 +388,14 @@ a:hover {
   background-color: #dc7920;
   cursor: pointer;
 }
+
 #cookie-btn:hover {
   opacity: 0.5;
 }
+.is-hide {
+  display: none;
+}
+
 .end-site {
   background-image: url(../images/szablon-dol.png);
   background-repeat: repeat-x, repeat-y;
