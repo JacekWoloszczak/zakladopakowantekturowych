@@ -371,7 +371,7 @@ a:hover {
   padding-top: 3%;
   text-shadow: 1px 1px black;
 }
-#cookie {
+.cookie {
   position: fixed;
   z-index: 3;
   width: 100%;
@@ -379,9 +379,10 @@ a:hover {
   background-color: #ebebeb;
   display: flex;
   align-items: center;
+  opacity: 0.9;
 }
 
-#cookie-btn {
+.cookie-btn {
   margin-right: 2%;
   padding: 2%;
   border-radius: 5%;
@@ -395,7 +396,12 @@ a:hover {
 .is-hide {
   display: none;
 }
-
+.is-see {
+  display: block;
+}
+.information-btn {
+  display: none;
+}
 .end-site {
   background-image: url(../images/szablon-dol.png);
   background-repeat: repeat-x, repeat-y;
