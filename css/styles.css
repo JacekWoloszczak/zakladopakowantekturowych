@@ -308,7 +308,7 @@ a:hover {
 }
 .reveal.active {
   opacity: 1;
-  animation: fade-right 2s ease-in;
+  animation: fade-right 1s ease-in;
 }
 
 @keyframes fade-right {
