@@ -571,6 +571,14 @@ a:hover {
   padding: 1% 3%;
   margin: 0 auto;
 }
+.paragraph-center {
+  text-align: center;
+  padding: 1% 3%;
+  color: white;
+  margin: 0 auto;
+  line-height: 2;
+  font-size: 1.75em;
+}
 .header_burger-menu {
   display: none;
 }
