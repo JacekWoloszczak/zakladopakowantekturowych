@@ -712,6 +712,7 @@ a:hover {
   .container-navi {
     display: none;
   }
+
   .menu-list {
     display: flex;
     flex-direction: column;
@@ -811,26 +812,29 @@ a:hover {
     display: none;
   }
   .blur {
-    background: repeating-linear-gradient(
-        -45deg,
-        #757575 0,
-        #75757500 50%,
-        transparent 0,
-        transparent 25%
-      )
-      0 / 6em 6em;
+    background: linear-gradient(
+      to bottom,
+      rgb(100, 100, 100, 0) 0%,
+
+      rgb(100, 100, 100, 1) 75%
+    );
+    /* 1,
+        75% #75757500 75%, transparent 0,
+        transparent 25% 
+        0 /
+        6em 6em; */
     width: 100%;
     height: 100px;
     margin-top: -100px;
     position: relative;
-    animation: move 8s linear infinite;
+    /* animation: move 8s linear infinite; */
   }
 
-  @keyframes move {
+  /* @keyframes move {
     to {
       background-position: 100% 100%;
     }
-  }
+  } */
 
   .show,
   .hide {
