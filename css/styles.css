@@ -633,14 +633,14 @@ a:hover {
 .signup_field_name {
   position: absolute;
   top: 15%;
-  left: 1%;
+
   border: none;
 }
 
 .signup_field_email {
   position: absolute;
   top: 26%;
-  left: -1.2%;
+
   border: none;
 }
 
@@ -657,7 +657,7 @@ a:hover {
 .signup-area {
   position: absolute;
   top: 44%;
-  left: 13%;
+
   width: 70%;
   height: 35%;
 }
@@ -1585,12 +1585,10 @@ a:hover {
   .signup_field_name {
     position: absolute;
     top: 12%;
-    left: 3.75%;
   }
   .signup_field_email {
     position: absolute;
     top: 30%;
-    left: 2.5%;
   }
 
   /* .signup_field_area {
@@ -1600,7 +1598,6 @@ a:hover {
   .signup-area {
     position: absolute;
     top: 45%;
-    left: 12%;
   }
   .signup_label {
     font-weight: bold;
@@ -1608,7 +1605,6 @@ a:hover {
   .signup_legal-checkbox {
     position: absolute;
     top: 85%;
-    left: 16%;
   }
   .signup_checbox {
     position: absolute;
