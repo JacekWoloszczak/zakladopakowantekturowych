@@ -608,6 +608,112 @@ a:hover {
 .ofert-link {
   color: black;
 }
+.contact_form {
+  margin-bottom: 10%;
+}
+
+.signup_form {
+  border-radius: 1%;
+  border: 1px solid #dc7920;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  background-color: #545454;
+  width: 30vw;
+  height: 60vh;
+  position: relative;
+}
+.form-header {
+  position: absolute;
+  top: 3%;
+  margin: auto;
+}
+.signup_field_name {
+  position: absolute;
+  top: 15%;
+  left: 1%;
+  border: none;
+}
+
+.signup_field_email {
+  position: absolute;
+  top: 26%;
+  left: -1.2%;
+  border: none;
+}
+
+.signup_field_area {
+  position: absolute;
+  top: 36%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  font-weight: bold;
+}
+
+.signup-area {
+  position: absolute;
+  top: 44%;
+  left: 13%;
+  width: 70%;
+  height: 35%;
+}
+.signup_label {
+  font-weight: bold;
+}
+.signup_legal-checkbox {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 78%;
+}
+.signup_checbox {
+  position: absolute;
+  right: 102%;
+}
+
+.signup_button {
+  position: absolute;
+  padding: 1%;
+  top: 88%;
+  width: 20%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #dc7920;
+}
+/* @media screen and (max-width: 450px) {
+  .signup_form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90vw;
+    height: 80hw;
+    position: relative;
+  }
+  .label_paragraph {
+    font-size: 10px;
+  }
+  .modal__legal-link {
+    font-size: 11px;
+  }
+  .ampersand {
+    font-size: 10px;
+  }
+  .signup_field_area {
+    display: none;
+  }
+  .signup-area {
+    position: absolute;
+    top: 44%;
+    left: 13%;
+    width: 90%;
+    height: 35%;
+  }
+} */
 @media screen and (orientation: portrait) {
   .top {
     box-shadow: none;
@@ -704,7 +810,7 @@ a:hover {
     border: none;
     cursor: pointer;
     position: absolute;
-    top: -15vw;
+    top: -15%;
     right: 2vw;
     display: flex;
   }
@@ -962,6 +1068,69 @@ a:hover {
 
   .paragraph-center {
     font-size: 1.5em;
+  }
+  .list_contact {
+    font-size: 1em;
+  }
+  .signup_form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90vw;
+    height: 80hw;
+    position: relative;
+  }
+  /* .signup_field_name {
+    position: absolute;
+    top: 12%;
+  }
+  .signup_field_email {
+    position: absolute;
+    top: 23%;
+    left: 2%;
+  }
+
+
+
+  .signup-area {
+    position: absolute;
+    top: 35%;
+    left: 18%;
+  }
+  .signup_label {
+    font-weight: bold;
+  }
+  .signup_legal-checkbox {
+    position: absolute;
+    top: 77%;
+  }
+  .signup_checbox {
+    position: absolute;
+    top: 30%;
+    right: 100%;
+  }
+
+  .signup_button {
+    position: absolute;
+    padding: 1%;
+    top: 85%;
+    width: 15%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #dc7920;
+    font-size: 14px;
+  } */
+  .label_paragraph {
+    font-size: 10px;
+  }
+  .modal__legal-link {
+    font-size: 11px;
+  }
+  .ampersand {
+    font-size: 10px;
+  }
+  .signup_field_area {
+    display: none;
   }
 }
 
@@ -1404,6 +1573,68 @@ a:hover {
   .d-none {
     display: none;
   }
+  .signup_form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90vw;
+
+    position: relative;
+  }
+  .signup_field_name {
+    position: absolute;
+    top: 12%;
+    left: 3.75%;
+  }
+  .signup_field_email {
+    position: absolute;
+    top: 30%;
+    left: 2.5%;
+  }
+
+  /* .signup_field_area {
+    display: none;
+  } */
+
+  .signup-area {
+    position: absolute;
+    top: 45%;
+    left: 12%;
+  }
+  .signup_label {
+    font-weight: bold;
+  }
+  .signup_legal-checkbox {
+    position: absolute;
+    top: 85%;
+    left: 16%;
+  }
+  .signup_checbox {
+    position: absolute;
+    top: 30%;
+    right: 100%;
+  }
+
+  .signup_button {
+    position: absolute;
+    padding: 1%;
+    top: 85%;
+    right: 22%;
+    width: 15%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #dc7920;
+    font-size: 14px;
+  }
+  .label_paragraph {
+    font-size: 10px;
+  }
+  .modal__legal-link {
+    font-size: 11px;
+  }
+  .ampersand {
+    font-size: 10px;
+  }
 }
 @media screen and (min-width: 1023px) and (max-width: 1279px) {
   .container-navi {
@@ -1434,5 +1665,17 @@ a:hover {
     margin-right: -5%;
     margin-left: 95%;
     border: 1px solid black;
+  }
+  .label_paragraph {
+    font-size: 10px;
+  }
+  .modal__legal-link {
+    font-size: 11px;
+  }
+  .ampersand {
+    font-size: 10px;
+  }
+  .signup_field_area {
+    display: none;
   }
 }
