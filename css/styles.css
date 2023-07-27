@@ -505,6 +505,14 @@ a:hover {
   padding: 0% 3%;
   margin: 0 auto;
 }
+.text-article_pp {
+  font-size: 1em;
+  line-height: 1.8;
+  color: white;
+  text-align: justify;
+  padding: 0% 3%;
+  margin: 0 auto;
+}
 .text-article::first-letter {
   font-size: larger;
 }
@@ -683,6 +691,13 @@ a:hover {
   width: 20%;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-color: #dc7920;
+}
+
+.link-pp {
+  font-size: 2.2em;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
 }
 /* @media screen and (max-width: 450px) {
   .signup_form {
