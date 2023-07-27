@@ -1,6 +1,6 @@
 <?php
 
-$to ='j_w07@wp.pl';
+$to ='opakowania.lomianki@gmail.com';
 $name = $_POST['name'];
 $email = $_POST['email'];
 $subject = 'Nowy mail od'. $name . '('. $email . ')';
@@ -10,5 +10,5 @@ $headers .= 'Content-Type: text/plain; charset=utf-8' . "\r\n";
 
 
 mail($to, $subject, $message, $headers);
-echo 'Wiadomosc wyslana'
+echo 'Wiadomość wysłana'
 ?>
