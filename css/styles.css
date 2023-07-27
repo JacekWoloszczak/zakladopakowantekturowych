@@ -692,12 +692,18 @@ a:hover {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-color: #dc7920;
 }
-
-.link-pp {
-  font-size: 2.2em;
+.legal-page-link {
   display: flex;
-  align-items: flex-end;
-  justify-content: flex-end;
+  align-items: center;
+  justify-content: center;
+}
+.link-pp {
+  font-size: 2em;
+}
+
+.link-mainpage {
+  font-size: 2em;
+  margin-right: 50%;
 }
 /* @media screen and (max-width: 450px) {
   .signup_form {
