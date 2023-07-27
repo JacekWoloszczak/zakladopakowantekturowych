@@ -1159,6 +1159,14 @@ a:hover {
   .signup_field_area {
     display: none;
   }
+  .link-pp {
+    font-size: 1.2em;
+  }
+
+  .link-mainpage {
+    font-size: 1.2em;
+    margin-right: 20%;
+  }
 }
 
 @media screen and (orientation: landscape) and (max-width: 1023px) {
