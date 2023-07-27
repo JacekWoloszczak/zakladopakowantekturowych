@@ -1,6 +1,6 @@
 <?php
 
-$to ='j_w07@wp.pl';
+$to ='opakowania.lomianki@gmail.com';
 $name = $_POST['name'];
 $email = $_POST['email'];
 $subject = 'Nowy mail od'. $name . '('. $email . ')';
