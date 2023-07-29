@@ -151,7 +151,7 @@ mail($to, $subject, $message, $headers);
         </div>
       </nav>
     </header>
-    <main class="middle">
+    <main class="middle-thankyou">
      <p class="thank-you_page-paragraph">Dziękujemy, Twoja wiadomość została wysłana.<br> Skontaktujemy sie z Tobą możliwie najszybciej.</p>
     </main>
     <footer class="end-site">
