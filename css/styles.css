@@ -711,14 +711,14 @@ a:hover {
   font-size: 2em;
   margin-right: 50%;
 }
-.middle-thankyou {
+/* .middle-thankyou {
   background-color: #757575;
 }
 .thank-you_page-paragraph {
   font-size: 2em;
   color: white;
   text-align: center;
-}
+} */
 /* @media screen and (max-width: 450px) {
   .signup_form {
     display: flex;
