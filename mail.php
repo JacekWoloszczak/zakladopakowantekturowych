@@ -152,7 +152,7 @@ mail($to, $subject, $message, $headers);
       </nav>
     </header>
     <main class="middle">
-     <p class="text reveal">Dziękujemy, Twoja wiadomość została wysłana.<br> Skontaktujemy sie z Tobą możliwie najszybciej.</p>
+     <p class="text reveal">Dziękujemy, Twoja wiadomość została wysłana. Skontaktujemy sie z Tobą możliwie najszybciej.</p>
     </main>
     <footer class="end-site">
       <address class="thumb">
