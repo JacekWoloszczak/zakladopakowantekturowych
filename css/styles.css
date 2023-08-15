@@ -234,7 +234,16 @@ a:hover {
   justify-content: center;
   align-items: center;
 }
-
+.middle-legality {
+  background: radial-gradient(
+    circle at bottom,
+    #757575 30%,
+    #545454 35%,
+    #545454 65%,
+    #757575 70%
+  );
+  margin-top: -3%;
+}
 .baner {
   display: flex;
   align-items: center;
