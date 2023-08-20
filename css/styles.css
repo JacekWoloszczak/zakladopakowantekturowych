@@ -652,6 +652,7 @@ a:hover {
   position: absolute;
   top: 3%;
   margin: auto;
+  color: #dc7920;
 }
 .signup_field_name {
   position: absolute;
@@ -696,7 +697,8 @@ a:hover {
 }
 .signup_checbox {
   position: absolute;
-  right: 102%;
+  left: -5%;
+  top: 40%;
 }
 
 .signup_button {
@@ -715,7 +717,11 @@ a:hover {
 .link-pp {
   font-size: 2em;
 }
-
+.label_paragraph {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .link-mainpage {
   font-size: 2em;
   margin-right: 50%;
@@ -738,9 +744,7 @@ a:hover {
     height: 80hw;
     position: relative;
   }
-  .label_paragraph {
-    font-size: 10px;
-  }
+ 
   .modal__legal-link {
     font-size: 11px;
   }
@@ -1122,7 +1126,7 @@ a:hover {
     justify-content: center;
     align-items: center;
     width: 90vw;
-    height: 80hw;
+    height: 80vh;
     position: relative;
   }
   /* .signup_field_name {
@@ -1145,30 +1149,31 @@ a:hover {
   .signup_label {
     font-weight: bold;
   }
-  .signup_legal-checkbox {
+  /* .signup_legal-checkbox {
     position: absolute;
     top: 77%;
-  }
+  } */
+
   .signup_checbox {
     position: absolute;
+    left: -7%;
     top: 30%;
-    right: 100%;
   }
 
   .signup_button {
     position: absolute;
     padding: 1%;
-    top: 85%;
+    top: 90%;
     width: 15%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: #dc7920;
     font-size: 14px;
-  } */
+  }
   .label_paragraph {
     font-size: 10px;
   }
   .modal__legal-link {
-    font-size: 11px;
+    font-size: 10px;
   }
   .ampersand {
     font-size: 10px;
@@ -1304,6 +1309,61 @@ a:hover {
     margin-top: -100px;
     position: relative;
     animation: move 8s linear infinite;
+  }
+  .signup_form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 90vw;
+    height: 80vh;
+    position: relative;
+  }
+  /* .signup_field_name {
+    position: absolute;
+    top: 12%;
+  }
+  .signup_field_email {
+    position: absolute;
+    top: 23%;
+    left: 2%;
+  }
+
+
+
+  .signup-area {
+    position: absolute;
+    top: 35%;
+    left: 18%;
+  }
+  .signup_label {
+    font-weight: bold;
+  }
+  /* .signup_legal-checkbox {
+    position: absolute;
+    top: 77%;
+  } */
+
+  .signup_checbox {
+    position: absolute;
+    left: -7%;
+    top: 30%;
+  }
+
+  .signup_button {
+    position: absolute;
+    padding: 1%;
+    top: 90%;
+    width: 15%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #dc7920;
+    font-size: 14px;
+  }
+  .label_paragraph {
+    font-size: 10px;
+  }
+  .modal__legal-link {
+    font-size: 10px;
   }
 
   @keyframes move {
@@ -1675,6 +1735,9 @@ a:hover {
     font-size: 14px;
   }
   .label_paragraph {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-size: 10px;
   }
   .modal__legal-link {
@@ -1715,6 +1778,9 @@ a:hover {
     border: 1px solid black;
   }
   .label_paragraph {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-size: 10px;
   }
   .modal__legal-link {
