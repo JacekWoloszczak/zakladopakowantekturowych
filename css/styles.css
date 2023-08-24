@@ -242,7 +242,6 @@ a:hover {
     #545454 65%,
     #757575 70%
   );
-  margin-top: -3%;
 }
 .baner {
   display: flex;
@@ -1199,7 +1198,7 @@ a:hover {
 }
 
 .middle-legality {
-  margin-top: -10%;
+  padding-top: 5%;
 }
 
 @media screen and (orientation: landscape) and (max-width: 1023px) {
@@ -1494,7 +1493,7 @@ a:hover {
   }
 }
 .middle-legality {
-  margin-top: -5%;
+  padding-bottom: 3%;
 }
 
 @media screen and (min-width: 700px) and (max-width: 1023px) {
