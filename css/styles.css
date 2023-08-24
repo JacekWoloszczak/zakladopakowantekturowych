@@ -762,6 +762,12 @@ a:hover {
     height: 35%;
   }
 } */
+/* @media screen and (max-width: 350px) {
+  p {
+    font-size: 1em;
+  }
+} */
+
 @media screen and (orientation: portrait) {
   .top {
     box-shadow: none;
@@ -1163,11 +1169,12 @@ a:hover {
   .signup_button {
     position: absolute;
     padding: 1%;
+
     top: 90%;
     width: 15%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: #dc7920;
-    font-size: 14px;
+    font-size: 12px;
   }
   .label_paragraph {
     font-size: 10px;
@@ -1189,6 +1196,10 @@ a:hover {
     font-size: 1.2em;
     margin-right: 20%;
   }
+}
+
+.middle-legality {
+  margin-top: -10%;
 }
 
 @media screen and (orientation: landscape) and (max-width: 1023px) {
@@ -1481,6 +1492,9 @@ a:hover {
     align-items: center;
     justify-content: center;
   }
+}
+.middle-legality {
+  margin-top: -5%;
 }
 
 @media screen and (min-width: 700px) and (max-width: 1023px) {
