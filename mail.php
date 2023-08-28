@@ -30,7 +30,7 @@ mail($to, $subject, $message, $headers);
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link
       rel="canonical"
-      href="https://www.zakladopakowanlomianki.pl/kontakt.html"
+      href="https://www.zakladopakowanlomianki.pl/mail.php"
     />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
