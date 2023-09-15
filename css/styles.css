@@ -501,7 +501,10 @@ a:hover {
 .article-order li:first-child {
   margin-top: 5%;
 }
-.article-order li:last-child {
+.article-order li:nth-child(2) {
+  margin-top: 2%;
+}
+.article-order li:nth-child(3) {
   margin-top: 2%;
 }
 
@@ -537,6 +540,14 @@ a:hover {
   padding-bottom: 3%;
 }
 
+.order_list_in_article {
+  text-align: left;
+  color: white;
+  font-size: 1em;
+  line-height: 1.5;
+  margin: 0 auto;
+  padding-bottom: 2%;
+}
 .adnotation {
   font-style: italic;
   font-size: 0.7em;
@@ -603,6 +614,11 @@ a:hover {
 }
 .seen,
 .unseen {
+  visibility: hidden;
+}
+
+.seen-second,
+.unseen-second {
   visibility: hidden;
 }
 .show,
@@ -1070,6 +1086,55 @@ a:hover {
     overflow: hidden;
   }
 
+  .write_article-evolution {
+    position: relative;
+    padding-bottom: 20%;
+  }
+  .evo {
+    width: 100vw;
+    height: 15vw;
+    position: absolute;
+    bottom: 0;
+    border: 2px solid black;
+    background-color: black;
+    color: white;
+    padding: 1em;
+  }
+  .seen-second,
+  .unseen-second {
+    visibility: visible;
+  }
+
+  .seen-second,
+  .unseen-second {
+    z-index: 5;
+    text-align: center;
+  }
+  .article_container_evolution {
+    max-height: 350px;
+    overflow: hidden;
+  }
+  .seen-second:target ~ .blur {
+    display: none;
+  }
+  .seen-second:target {
+    display: none;
+  }
+  .unseen-second {
+    display: none;
+  }
+
+  .seen-second:target ~ .unseen-second {
+    display: block;
+  }
+  .seen-second:target ~ .art_evolution {
+    max-height: 100%;
+  }
+  .art_evolution {
+    max-height: 100px;
+    overflow: hidden;
+  }
+
   .link {
     font-size: 2em;
     font-weight: bold;
@@ -1460,6 +1525,55 @@ a:hover {
     max-height: 100px;
     overflow: hidden;
   }
+  .write_article-evolution {
+    position: relative;
+    padding-bottom: 20%;
+  }
+  .evo {
+    width: 50vw;
+    height: 8vw;
+    position: absolute;
+    bottom: 2em;
+    right: 25vw;
+    border: 2px solid black;
+    background-color: black;
+    color: white;
+    padding: 1em;
+  }
+  .seen-second,
+  .unseen-second {
+    visibility: visible;
+  }
+
+  .seen-second,
+  .unseen-second {
+    z-index: 5;
+    text-align: center;
+  }
+  .article_container_evolution {
+    max-height: 350px;
+    overflow: hidden;
+  }
+  .seen-second:target ~ .blur {
+    display: none;
+  }
+  .seen-second:target {
+    display: none;
+  }
+  .unseen-second {
+    display: none;
+  }
+
+  .seen-second:target ~ .unseen-second {
+    display: block;
+  }
+  .seen-second:target ~ .art_evolution {
+    max-height: 100%;
+  }
+  .art_evolution {
+    max-height: 100px;
+    overflow: hidden;
+  }
   .thumb {
     display: flex;
     flex-direction: column;
@@ -1667,7 +1781,54 @@ a:hover {
     max-height: 100px;
     overflow: hidden;
   }
+  .write_article-evolution {
+    position: relative;
+    padding-bottom: 20%;
+  }
+  .evo {
+    width: 100vw;
+    height: 15vw;
+    position: absolute;
+    bottom: 0;
+    border: 2px solid black;
+    background-color: black;
+    color: white;
+    padding: 1em;
+  }
+  .seen-second,
+  .unseen-second {
+    visibility: visible;
+  }
 
+  .seen-second,
+  .unseen-second {
+    z-index: 5;
+    text-align: center;
+  }
+  .article_container_evolution {
+    max-height: 350px;
+    overflow: hidden;
+  }
+  .seen-second:target ~ .blur {
+    display: none;
+  }
+  .seen-second:target {
+    display: none;
+  }
+  .unseen-second {
+    display: none;
+  }
+
+  .seen-second:target ~ .unseen-second {
+    display: block;
+  }
+  .seen-second:target ~ .art_evolution {
+    max-height: 100%;
+  }
+  .art_evolution {
+    max-height: 100px;
+    overflow: hidden;
+  }
   .thumb {
     display: flex;
     flex-direction: column;

@@ -24,7 +24,7 @@ mail($to, $subject, $message, $headers);
       name="description"
       content="Zakład produkujacy opakowania w Łomiankach. Skontaktuj się z nami! Pomożemy Tobie dobrać odpowiedni produkt. Robimy opakowania, kartony na każdy wymiar."
     />
-    <meta name="author" content="Jacek,chętnie podejmę pracę, 505739881" />
+    <meta name="author" content="Jacek,chętnie podejmę pracę" />
     <link rel="stylesheet" type="text/css" href="css/normalize.css" />
     <link rel="stylesheet" type="text/css" href="css/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
